@@ -16,5 +16,5 @@ document.addEventListener('DOMContentLoaded', function () {
         })
     }
 
-    allNavItems.forEach(item => item.addEventListener('click', () => navList.classList.remove('show-menu')));
+    allNavItems.forEach(item => item.addEventListener('click', () => navMenu.classList.remove('show-menu')));
 })
