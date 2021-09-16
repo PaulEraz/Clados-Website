@@ -1,0 +1,85 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: $text-color-alt;
+}
+
+a {
+    text-decoration: none;
+    color: $text-color;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: $text-color;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn {
+    color: $text-color;
+    background-color: $main-color;
+    padding: 10px 30px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.btn:hover {
+    transform: scale(.97);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex--wrap {
+    flex-wrap: wrap;
+}
+
+.grid {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid--col-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.mx-5 {
+    margin: 0 5px;
+}
+
+.my-30 {
+    margin: 30px 0;
+}

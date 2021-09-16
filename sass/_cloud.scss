@@ -1,0 +1,8 @@
+.cloud {
+    background-color: $main-color;
+
+    &__text {
+        color: $text-color;
+        margin: 20px 0;
+    }
+}

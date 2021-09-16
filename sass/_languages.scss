@@ -1,0 +1,15 @@
+.languages {
+    h2 {
+        margin: 20px 0;
+    }
+
+    .card {
+        text-align: center;
+        margin: 20px 10px;
+        transition: transform .3s;
+    }
+
+    .card:hover {
+        transform: translateY(-15px);
+    }
+}
